@@ -1,0 +1,5 @@
+page {
+    /* 对于page下面所有的字体进行设置 全局设置 */
+    font-family: "PingFangSC-Thin";
+    font-size: 32rpx;
+}

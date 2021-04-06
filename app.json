@@ -2,13 +2,13 @@
   "pages": [
     "pages/classic/classic"
   ],
-  "window":{
-    "navigationBarBackgroundColor": "#ffff00",
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Cherry",
     "navigationBarTextStyle": "black",
     "navigationStyle": "default",
-    "backgroundColor":"#fff",
-    "enablePullDownRefresh":false
-  }
-
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
 }
