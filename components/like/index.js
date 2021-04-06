@@ -4,14 +4,22 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    like:{
+      type:Boolean, //type是必填项
+    },
+    count:{
+      type:Number
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+    //数据绑定
+    //三元表达式
+    yesSrc:'images/like.png',
+    noSrc:'images/like@dis.png',
   },
 
   /**
@@ -19,7 +27,14 @@ Component({
    */
   methods: {
     onLike:function(event){
-      console.log(event);
+       let like = this.properties.like 
+       let count = this.properties.count
+       
+       count = like?count-1:count+1
+       this.setData({
+         count:count,
+         like:!like
+       })
     }
   }
 })
