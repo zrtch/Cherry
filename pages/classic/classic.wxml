@@ -1,1 +1,2 @@
-<c-like></c-like>
+<c-like bind:like="onLike" like="{{classicModel.like_status}}" count="{{classicModel.fav_nums}}"></c-like>
+<v-movie img="{{classicModel.image}}" content="{{classicModel.content}}"></v-movie>
