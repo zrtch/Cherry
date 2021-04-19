@@ -1,2 +1,6 @@
-<c-like bind:like="onLike" like="{{classicModel.like_status}}" count="{{classicModel.fav_nums}}"></c-like>
+<view class="header">
+  <v-epsoide class="epsoide" index="{{classicModel.index}}"></v-epsoide>
+  <c-like class="like"  bind:like="onLike" like="{{classicModel.like_status}}" count="{{classicModel.fav_nums}}"></c-like>
+</view>
+
 <v-movie img="{{classicModel.image}}" content="{{classicModel.content}}"></v-movie>
